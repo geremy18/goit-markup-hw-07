@@ -1,0 +1,39 @@
+.customer__container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #212121;
+    text-align: center;
+    line-height: 1.1;
+    padding-top: 52px;
+  }
+  
+  .customer__list {
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 130px;
+    margin-top: 44px;
+  }
+  
+  .customer__box-icon {
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #afb1b8;
+    cursor: pointer;
+    fill: #afb1b8;
+    padding: 14px 32px;
+  }
+  
+  .customer__icon {
+    width: 106px;
+    height: 52px;
+  }
+  
+  .customer__box-icon:hover,
+  .customer__box-icon:focus {
+    border-color: #2196f3;
+    fill: #2196f3;
+  }
+  

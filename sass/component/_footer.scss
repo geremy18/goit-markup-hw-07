@@ -1,0 +1,119 @@
+footer {
+    background-color: #2f303a;
+  }
+  
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  
+  .footer__info-list {
+    padding-inline-start: 0;
+  }
+  
+  .footer__info-list a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+  }
+  
+  .footer__info-list li {
+    list-style: none;
+    padding-top: 9px;
+  }
+  
+  .footer__info-list li a:hover {
+    color: #2196f3;
+  }
+  
+  .footer__info-list li a:focus {
+    color: #2196f3;
+  }
+  
+  .footer_info-list--mail {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+  }
+  
+  .footer__info-list--direction {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.1;
+  }
+  
+  .footer__info-list--direction p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0;
+  }
+
+  .footer__info-list--phone {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.6);
+  }  
+  
+  .footer__social p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  
+  .footer__social-list {
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+  }
+  
+  .footer__social-networks {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .footer__social-icon {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    fill: white;
+  }
+  
+  .footer__social-networks:hover,
+  .footer__social-networks:focus {
+    background-color: #2196f3;
+  }
+  
+  
